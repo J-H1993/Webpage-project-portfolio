@@ -1,0 +1,147 @@
+
+/* global edits */
+*{
+    background-color: black;
+}
+
+/* Navbar edits */
+.navbar{
+    text-align: right;
+    
+}
+
+.button{
+    background-color: bisque;
+    
+}
+
+.button a{
+    background-color: bisque;
+}
+
+.button a:hover{
+    background-color: orange;
+}
+
+.button:hover{
+   background-color:orange;
+   color: orange;
+}
+
+.button:focus{
+    outline-color: transparent;
+    outline-style: solid;
+    box-shadow: 0 0 0 4px orange;
+}
+
+/* Hyperlinks editing */
+
+a {
+    color:blue
+}
+
+a:visited {
+    color:rebeccapurple
+}
+
+a:hover{
+    color:blue;
+}
+
+a:focus{
+    outline-color:transparent;
+    outline-style:solid;
+    box-shadow: 0 0 0 4px orange;
+}
+
+/* Text edits */
+
+h1{
+    display:flex;
+    text-align:center;
+    justify-content:center;
+    color:bisque;
+}
+
+h2{
+    display:flex;
+    text-align:left;
+    color:bisque;
+    
+}
+
+p{
+    color:bisque;
+    text-align: left;
+}
+
+h3{
+    color:bisque;
+    text-align:center;
+    font-size:25px;
+}
+
+h4{
+    color:bisque;
+    text-align:left;
+    font-size:20px;
+}
+
+h5{
+    color:bisque;
+    text-align:left;
+    font-size:20px;
+}
+
+h6{
+    color:bisque;
+    text-align:left;
+    font-size:20px;
+}
+
+p2{
+    color:bisque;
+    text-align:left;
+}
+
+p3{
+    color:bisque;
+    text-align:left;
+}
+
+p4{
+    color:bisque;
+    text-align:left;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container img {
+    max-width: 100px;
+    max-height: 100px;
+    object-fit: contain;
+  }
+  
+  .small-heading {
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    margin: 0 10px;
+  }
+  
+  .small-heading h3 {
+    color: bisque;
+    margin: 0;
+  }
+  
+  .N64,
+  .DC {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
