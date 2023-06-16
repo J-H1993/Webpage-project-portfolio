@@ -1,0 +1,84 @@
+
+/* global edits */
+*{
+    background-color: black;
+}
+
+/* Navbar edits */
+.navbar{
+    text-align: right;
+    
+}
+
+.button{
+    background-color: bisque;
+    
+}
+
+.button a{
+    background-color: bisque;
+}
+
+.button a:hover{
+    background-color: orange;
+}
+
+.button:hover{
+   background-color:orange;
+   color: orange;
+}
+
+.button:focus{
+    outline-color: transparent;
+    outline-style: solid;
+    box-shadow: 0 0 0 4px orange;
+}
+
+/* Hyperlinks editing */
+
+a {
+    color:blue
+}
+
+a:visited {
+    color:rebeccapurple
+}
+
+a:hover{
+    color:blue;
+}
+
+a:focus{
+    outline-color:transparent;
+    outline-style:solid;
+    box-shadow: 0 0 0 4px orange;
+}
+
+.main{
+    justify-content: left;
+    text-align: center;
+    float: 20px;
+    color:bisque
+
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    font-size:25px;
+}
+
+h3{
+    font-size:25px;
+    text-align: center;
+}
+
+.Odd{
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+    align-items:center;
+}
+
